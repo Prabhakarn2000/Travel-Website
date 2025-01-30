@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous"> 
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="style.css">
+    </head>
+<body data-bs-spy="scroll">
+     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+          <div class="container-fluid">
+              <a href="#" class="navbar-brand text-danger">Travel</a>
+              <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"><span class="navbar-toggler-icon" ></span></button>
+             
+               <div class="collapse navbar-collapse" id="menu">
+               <div class="navbar-nav  nav-pills ms-auto">
+               <a href="#home" class="nav-item nav-link  active" >Home</a>
+               <a href="#booking" class="nav-item nav-link">Bookings</a>
+               <a href="#packages " class="nav-item nav-link ">packages</a>
+               <a href="#services" class="nav-item nav-link">Services</a>
+               <a href="#gallary" class="nav-item nav-link">Gallary</a>
+               <a href="#about" class="nav-item nav-link">About Us</a>
+                </div>
+                <div class="navbar-nav ms-auto">
+                  <div class="input-group h-25">
+                    <input type="search" placeholder="Search..." class="form-control">
+                    <button type="button" class="btn btn-primary"><i class="bi bi-search"></i></button>
+                  </div>
+                </div>
+              </div>
+          </div>
+         </nav>
+
+         <section id="home">
+         <div class="carousel slide " id="prabhakar" data-bs-ride="carousel" data-bs-interval="3000">
+          <ol class="carousel-indicators list-unstyled">
+             <li class="active abc" data-bs-target="#prabhakar" data-bs-slide-to="0" ></li>
+             <li class="abc" data-bs-target="#prabhakar" data-bs-slide-to="1" ></li>
+             <li class="abc" data-bs-target="#prabhakar" data-bs-slide-to="2" ></li>
+             <li class="abc" data-bs-target="#prabhakar" data-bs-slide-to="3"></li>
+          </ol>
+         <div class="carousel-inner">
+            
+             <div class="carousel-item active">
+                <video src="https://assets.mixkit.co/videos/1954/1954-720.mp4" autoplay muted ></video>
+            </div> 
+            <div class="carousel-item">
+                <video src="https://assets.mixkit.co/videos/4078/4078-720.mp4" autoplay muted ></video>
+            </div> 
+            <div class="carousel-item">
+                <video src="https://assets.mixkit.co/videos/3317/3317-720.mp4" autoplay muted ></video> 
+            </div> 
+            <div class="carousel-item">
+                <video src="https://assets.mixkit.co/active_storage/video_items/100223/1721860447/100223-video-720.mp4" autoplay muted loop></video>
+             </div>
+             <div class="carousel-caption text-dark">
+                <h5>Welcome To India</h5>
+                <h1>Visit <span class="changecontent"></span></h1>
+                <p><span>Explore The Indian States </span><br>In a beautiful Way With US</p>  
+             </div>
+         </div> 
+         
+         <a href="#prabhakar" class="carousel-control-prev" data-bs-slide="prev"><span class="bi bi-chevron-left" ></span></a>
+         <a href="#prabhakar" class="carousel-control-next" data-bs-slide="next"><span class="bi bi-chevron-right"></span></a>
+     
+         </div>
+        </div>
+    </section>
+      <br>
+    <section id="booking" class="booking">
+        <div class="main-txt" >
+          <h1><span>B</span>OOKINGS</h1>
+       </div>
+        <div class="row">
+            <div class="col book-img">
+               <img src="https://i.imgur.com/GeWZQ8E.jpeg" alt="" >
+            </div>
+            <div class="col form"> 
+                <form action="">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="where to">
+                    <label for="floatingInput">Where To</label>
+                  </div>
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingPassword" placeholder="How many">
+                    <label for="floatingPassword">How Many</label>
+                  </div><br>
+            <div class="row mb-3 w-">
+                <div class="col-sm-10"><label for="inputtext" class="form-label">Arrival Date</label>
+                    <input type="date" class="form-control" id="inputytext" required>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-10"><label for="inputtext" class="form-label">Leaving Date</label>
+                    <input type="date" class="form-control" id="inputtext" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-10">
+                    <textarea class="form-control" id="TA" rows="2" placeholder="Enter Your Name & Details"></textarea><br><br>
+                </div>
+            </div>
+
+                <div class="col-sm-10 offset-sm-5">
+                    <input type="button" class="btn btn-outline-primary" value="Book Now">
+                </div>
+        </form>
+        </div>
+        </div>
+          </section>
+          <section class="packages" id="packages">
+            <div class="container">
+               <div class="main-txt">
+                  <h1><span>P</span>ACKAGES</h1>
+               </div>
+               
+               <div class="row" style="margin-top: 30px;">
+                  <div class="col-md-4 py-3 py-md-0">
+                     <div class="card" id="AP">
+                        <img src="https://s3.india.com/wp-content/uploads/2024/09/places-in-amravati.jpg?impolicy=Medium_Widthonly&w=800&h=541" alt="">
+                        <div class="card-body">
+                           <h3>Andhra Pradesh</h3>
+                           <p>Andhra Pradesh, a southern Indian state, is known for its rich culture, heritage, temples, beaches, and vibrant Telugu language..</p>
+                           <div class="stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half text-warning"></i>
+                             </div>
+                             <h6>Price:  <span class="pe-5">₹15999</span><span class="text-decoration-line-through">20000</span></h6>
+                             <button type="button" class="btn btn-primary tex-light id="button">See More</button>
+                             <a href="#book" class="btn">Book Now</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 py-3 py-md-0">
+                     <div class="card" id="TG">
+                        <img src="https://i.imgur.com/PWkgSuf.jpeg" alt="">
+                        <div class="card-body">
+                           <h3>Telanagana</h3>
+                           <p>Telangana, a southern Indian state, is known for its rich history, vibrant culture, diverse cuisine, and iconic Charminar.</p>
+                           <div class="stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half text-warning"></i>
+                             </div>
+                             <h6>Price:  <span class="pe-5">₹15999</span><span class="text-decoration-line-through">20000</span></h6>
+                             <button type="button" class="btn btn-primary tex-light" id="button">See More</button>
+                             <a href="#book" class="btn">Book Now</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 py-3 py-md-0">
+                     <div class="card" id="TN">
+                        <img src="https://i.imgur.com/9VmF5Zd.jpeg" alt="">
+                        <div class="card-body">
+                           <h3>Tamilnadu</h3>
+                           <p>Tamil Nadu offers rich cultural heritage, stunning temples,  scenic hill stations, and beautiful coastal destinations for travelers.</p>
+                           <div class="stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star"></i>
+                             </div>
+                           <h6>Price:  <span class="pe-5">₹15999</span><span class="text-decoration-line-through">20000</span></h6>
+                           <button type="button" class="btn btn-primary tex-light" id="button">See More</button>
+                           <a href="#book" class="btn">Book Now</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row" style="margin-top: 30px;">
+                  <div class="col-md-4 py-3 py-md-0">
+                     <div class="card" id="DH">
+                        <img src="https://i.imgur.com/IxfIDVe.jpeg" alt="">
+                        <div class="card-body">
+                           <h3>Delhi</h3>
+                           <p>Delhi, India's vibrant capital, historic monuments,  rich culture, modern attractions, offering unforgettable experiences.</p>
+                           <div class="stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half text-warning"></i>
+                           </div>
+                           <h6>Price:  <span class="pe-5">₹15999</span><span class="text-decoration-line-through">20000</span></h6>
+                           <button type="button" class="btn btn-primary tex-light" id="button">See More</button>
+                           <a href="#book" class="btn">Book Now</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 py-3 py-md-0">
+                     <div class="card" id="KN">
+                        <img src="https://i.imgur.com/kIaIxS0.jpeg" alt="">
+                        <div class="card-body">
+                           <h3>Karnataka</h3>
+                           <p>Karnataka offers rich history, vibrant culture, beautiful landscapes, ancient temples, scenic hill stations, beaches for travelers.</p>
+                           <div class="stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star"></i>
+                           </div>
+                             <h6>Price:  <span class="pe-5">₹15999</span><span class="text-decoration-line-through">20000</span></h6>
+                             <button type="button" class="btn btn-primary tex-light" id="button">See More</button>
+                             <a href="#book" class="btn">Book Now</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 py-3 py-md-0">
+                     <div class="card" id="UP">
+                        <img src="https://i.imgur.com/0kLXLJ9.jpeg" alt="">
+                        <div class="card-body">
+                           <h3>Uttar Pradesh</h3>
+                           <p>Uttar Pradesh is one of the prettiest states in India. It's home to some prime historical, religious and architectural attractions..</p>
+                           <div class="stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half text-warning"></i>
+                           </div>
+                           <h6>Price:  <span class="pe-5">₹15999</span><span class="text-decoration-line-through">20000</span></h6>
+                           <button type="button" class="btn btn-primary tex-light" id="button">See More</button>
+                           <a href="#book" class="btn">Book Now</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+      
+               <div class="row" style="margin-top: 30px;">
+                  <div class="col-md-4 py-3 py-md-0">
+                     <div class="card" id="KR">
+                        <img src="https://i.imgur.com/mzPpPSf.jpeg" alt="">
+                        <div class="card-body">
+                           <h3>Kerala</h3>
+                           <p>Rightly known as ‘God’s Own Country’, Kerala is among the most beautiful and green states in India.</p>
+                           <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half text-warning"></i>
+                           </div>
+                           <h6>Price:  <span class="pe-5">₹15999</span><span class="text-decoration-line-through">20000</span></h6>
+                           <button type="button" class="btn btn-primary tex-light" id="button">See More</button>
+                           <a href="#book" class="btn">Book Now</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 py-3 py-md-0">
+                     <div class="card" id="MP">
+                        <img src="https://i.imgur.com/WzHHSyy.jpeg" alt="">
+                        <div class="card-body">
+                           <h3>Madhya Pradesh</h3>
+                           <p>Madhya Pradesh, India's heartland, offers ancient temples, wildlife reserves, vibrant culture, diverse natural beauty.</p>
+                           <div class="stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star "></i>
+                           </div>
+                             <h6>Price:  <span class="pe-5">₹15999</span><span class="text-decoration-line-through">20000</span></h6>
+                             <button type="button" class="btn btn-primary tex-light" id="button">See More</button>
+                             <a href="#book" class="btn">Book Now</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 py-3 py-md-0">
+                     <div class="card" id="GJ">
+                        <img src="https://i.imgur.com/ex583h2.jpeg" alt="">
+                        <div class="card-body">
+                           <h3>Gujarath</h3>
+                           <p>Gujarat offers rich cultural heritage, historic temples, wildlife sanctuaries, scenic beaches, and mouthwatering cuisine for travelers.</p>
+                           <div class="stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half text-warning"></i>
+                             </div>
+                             <h6>Price:  <span class="pe-5">₹15999</span><span class="text-decoration-line-through">20000</span></h6>
+                             <button type="button" class="btn btn-primary tex-light" id="button">See More</button>
+                             <a href="#book" class="btn">Book Now</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row" style="margin-top: 30px;">
+                  <div class="col-md-4 py-3 py-md-0">
+                     <div class="card" id="WB">
+                        <img src="https://i.imgur.com/sg403Me.jpeg" alt="">
+                        <div class="card-body">
+                           <h3>West Bengal</h3>
+                           <p>West Bengal offers cultural heritage, scenic beauty, historical landmarks, vibrant festivals, delicious cuisine, perfect for travelers.</p>
+                           <div class="stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half text-warning"></i>
+                             </div>
+                             <h6>Price:  <span class="pe-5">₹15999</span><span class="text-decoration-line-through">20000</span></h6>
+                             <button type="button" class="btn btn-primary tex-light" id="button">See More</button>
+                             <a href="#book" class="btn">Book Now</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 py-3 py-md-0">
+                     <div class="card" id="JK">
+                        <img src="https://img.freepik.com/free-photo/beautiful-scenery-rocky-snowy-mountains-countryside_181624-1654.jpg?ga=GA1.1.1792729121.1728358492&semt=ais_incoming_vrsd" alt="">
+                        <div class="card-body">
+                           <h3>Jammu & Kashmir </h3>
+                           <p>Heaven on Earth. Jammu and Kashmir offers breathtaking landscapes, serene lakes, historic temples, adventure activities in the Himalayan region.</p>
+                           <div class="stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-half text-warning"></i>
+                             </div>
+                             <h6>Price:  <span class="pe-5">₹15999</span><span class="text-decoration-line-through">20000</span></h6>
+                             <button type="button" class="btn btn-primary tex-light" id="button">See More</button>
+                             <a href="#book" class="btn">Book Now</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 py-3 py-md-0">
+                     <div class="card" id="MH">
+                        <img src="https://i.imgur.com/IQsShHQ.jpeg" alt="">
+                        <div class="card-body">
+                           <h3>Maharashtra</h3>
+                           <p>Maharashtra offers vibrant culture, historic forts, scenic beaches, hill stations, and temples, perfect for adventure, history, and relaxation.</p>
+                           <div class="stars">
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star-fill"></i>
+                              <i class="bi bi-star"></i>
+                             </div>
+                           <h6>Price:  <span class="pe-5">₹15999</span><span class="text-decoration-line-through">20000</span></h6>
+                           <button type="button" class="btn btn-primary tex-light" id="button">See More</button>
+                           <a href="#book" class="btn">Book Now</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+      <section class="services" id="services">
+         <div class="container">
+         <div class="main-txt" style="padding-top: 10px;">
+            <h1><span>S</span>ervice</h1>
+
+         </div>
+         <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <i class="fas fa-hotel"></i>
+                  <div class="card-body text-center">
+                     <h3>Affordable Hotel</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus distinctio, pariatur sit temporibus asperiores beatae!</p>
+                  </div>
+               </div>
+
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                 <i class="fas fa-utensils"></i>
+                 <div class="card-body text-center">
+                   <h3>Food And Drinks</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus distinctio, pariatur sit temporibus asperiores beatae!</p>
+                 </div>
+               </div>
+             </div>
+             <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                 <i class="fas fa-bullhorn"></i>
+                 <div class="card-body text-center">
+                   <h3>Safty Guide</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus distinctio, pariatur sit temporibus asperiores beatae!</p>
+                 </div>
+               </div>
+             </div>
+
+         </div>
+         <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <i class="fas fa-globe-asia"></i>
+                <div class="card-body text-center">
+                  <h3>Around The India</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus distinctio, pariatur sit temporibus asperiores beatae!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <i class="fas fa-plane"></i>
+                <div class="card-body text-center">
+                <h3>Fastest Travel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus distinctio, pariatur sit temporibus asperiores beatae!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <i class="fas fa-hiking"></i>
+                <div class="card-body text-center">
+                <h3>Adventures</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus distinctio, pariatur sit temporibus asperiores beatae!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </section>
+
+    <section class="gallary" id="gallary">
+      <div class="container">
+         <div class="main-txt" style="padding-top: 10px;">
+            <h1><span>G</span>allary</h1>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+               <div class="col-md-4 py-3 py-md-0">
+                  <div class="card">
+                     <img src="https://img.freepik.com/premium-photo/taj-mahal-complex-view-from-agra-roof-india_400112-328.jpg?ga=GA1.1.1792729121.1728358492&semt=ais_incoming" alt=""  height="230px">
+                  </div>
+               </div>
+               <div class="col-md-4 py-3 py-md-0">
+                  <div class="card">
+                     <img src="https://img.freepik.com/free-photo/indian-city-buildings-scene_23-2151823126.jpg?ga=GA1.1.1792729121.1728358492&semt=ais_incoming" alt="" height="230px">
+                  </div>
+               </div>
+               <div class="col-md-4 py-3 py-md-0">
+                  <div class="card">
+                     <img src="https://img.freepik.com/free-photo/crowded-indian-city_23-2151765638.jpg?ga=GA1.1.1792729121.1728358492&semt=ais_incoming" alt=""  height="230px">
+                  </div>
+               </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+               <div class="col-md-4 py-3 py-md-0">
+                  <div class="card">
+                     <img src="https://img.freepik.com/free-photo/beautiful-old-architecture-historic-ayutthaya-thailand_1339-7852.jpg?ga=GA1.1.1792729121.1728358492&semt=ais_incoming" alt=""  height="230px">
+                  </div>
+               </div>
+               <div class="col-md-4 py-3 py-md-0">
+                  <div class="card">
+                     <img src="https://images.unsplash.com/photo-1715261173076-4d638c1cbed4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGF5b2RoeWElMjByYW0lMjBtYW5kaXJ8ZW58MHx8MHx8fDA%3D" alt="" height="230px">
+                  </div>
+               </div>
+               <div class="col-md-4 py-3 py-md-0">
+                  <div class="card">
+                     <img src="https://plus.unsplash.com/premium_photo-1697730326674-74b6c70509f4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXlvZGh5YSUyMHJhbSUyMG1hbmRpcnxlbnwwfHwwfHx8MA%3D%3D" alt=""  height="230px">
+                  </div>
+               </div>
+            </div>
+         </div>
+   </section>
+   
+   <section class="about" id="about">
+      <div class="container">
+         <div class="main-txt" style="padding-top: 10px;">
+            <h1><span>About</span>Us</h1>
+            </div>
+            <div class="row" style="margin-top: 50px;">
+               <div class="col-md-6 py-3 py-md-0">
+                  <div class="card">
+                     <img src="https://tripnxt.com/blog/wp-content/uploads/2020/05/india-map-tn.jpg" alt="">
+                  </div>
+               </div>
+   
+               <div class="col-md-6 py-3 py-md-0">
+                  <h2>How Travel Agency Work Read.</h2>
+                  <p>PR Travels providing travel solutions to their passengers with best in class quality by operating brand new branded with well experienced professionals. We PR Travels an well known India based Tours & Travels operator serving our customers more than a year by connecting various destinations in INDIA like Telangana , Andhra Pradesh , Tamilnadu , Delhi , Jammu & Kashmir , Karnataka , Uttar Pradesh , Kerala , Madhya Pradesh , Gujarath , West Bengal , Maharashtra and more.
+                      </p>
+
+                   <p>Book PR Travels Your tickets online in website and from your mobile with few easy steps.</p>
+                  <button id="about-btn">Read More...</button>
+               </div>
+            </div>
+         </div>
+   </section>
+
+   <footer id="footer">
+      <h1><span>T</span>ravel</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, fuga.</p>
+      <div class="social-links">
+        <a href="mailto:prabhakarnarramula@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <div class="credite">
+         <p>Designed By <a href="#">Prabhakar</a></p>
+      </div>
+      <div class="copyyright">
+         <p>&copy;Copyright Prabhakar.All Rights Reserved</p>
+      </div>
+   </footer>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+</body>
+</html>
+                                                                                                                           
