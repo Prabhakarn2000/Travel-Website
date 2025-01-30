@@ -18,10 +18,19 @@
 .navbar-nav .input-group .btn i{
   text-align: center;
 }
+.navbar .container-fluid a h1{
+ height: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.navbar .container-fluid a h1 span{
+ color:orange;
+ margin-right: 6px ;
+}
 
 
 .carousel{
-     /*height: 90vh;*/
      position: relative;
 }
  .carousel .carousel-indicators .abc{
@@ -37,9 +46,7 @@
 .carousel .carousel-indicators li.active {
  background-color:black;
  } 
- .bi{
-     color: crimson;
- }
+
  .carousel .carousel-inner .carousel-item video{
      width: 100vw;
      height: 100%;
@@ -72,18 +79,16 @@
      100%{content: "Maharashtra";}
    }
    .carousel .carousel-inner .carousel-caption p span {
-     /*margin-left: -25px !important;*/
      font-weight: 400;
      font-size: 25px;
      color:#128bd1;
    }
    .carousel .carousel-inner .carousel-caption p {
-     /*margin-left: -25px !important;*/
      font-weight: bolder;
    }
    #booking{
      background-color: #f9f9f9;
-     padding-top: 50px;
+     padding-top: 20px;
    
 }
 .booking .main-txt h1{
@@ -109,6 +114,12 @@
     color: orange ;
     font-size: x-large;
   }
+  .bi-search{
+    display: flex;
+    font-size: 20px;
+   align-items: center;
+   justify-content: center;
+  }
   .main-txt h1{
     text-align: center;
     margin-top: 80px;
@@ -118,7 +129,7 @@
     color: orange;
   }
   .packages{
-    padding-top: 50px;
+    padding-top: 20px;
   }
 
   .packages .card{
@@ -146,7 +157,6 @@
     font-size: 20px;
   }
   .packages .card .card-body a{
-    /*text-decoration: none;*/
     background: orange;
     color: white;
     border-radius: 5px;
@@ -154,7 +164,7 @@
 
   .services{
     background:white;
-    margin-top: 50px;
+    margin-top: 30px;
   }
   
   .services .card{
@@ -173,7 +183,7 @@
   }
 
   .gallary{
-    margin-top: 50px;
+    margin-top: 30px;
   }
   .gallary .card{
     border-radius: 10px;
@@ -189,7 +199,7 @@
   }
 
   .about{
-    margin-top: 50px;
+    margin-top: 20px;
     background: white;
   }
   .about .card{
@@ -223,74 +233,7 @@
   #button{
     color:white;
   }
-  /*#button:hover{
-    background-color: #128bd1;
-    color:white;
-  }*/
-  /*#JK{
-    background-image: url("https://img.freepik.com/free-photo/beautiful-scenery-rocky-snowy-mountains-countryside_181624-1654.jpg?ga=GA1.1.1792729121.1728358492&semt=ais_incoming_vrsd");
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-  }
-  #MH{
-    background-image: url("https://i.imgur.com/IQsShHQ.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-  }
-  #WB{
-    background-image: url("https://i.imgur.com/sg403Me.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-  }
-  #GJ{
-    background-image: url("https://i.imgur.com/ex583h2.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;  
-  }
-  #MP{
-    background-image: url("https://i.imgur.com/WzHHSyy.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;  
-  }
-  #KR{
-    background-image: url("https://i.imgur.com/mzPpPSf.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;  
-  }
-  #UP{
-    background-image: url("https://i.imgur.com/0kLXLJ9.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;  
-  }
-  #KN{
-    background-image: url("https://i.imgur.com/kIaIxS0.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;  
-  }
-  #DH{
-    background-image: url("https://i.imgur.com/IxfIDVe.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;  
-  }
-  #TN{
-    background-image: url("https://i.imgur.com/9VmF5Zd.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;  
-  }
-  #TG{
-    background-image: url("https://i.imgur.com/PWkgSuf.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;  
-  }
-  #AP{
-    background-image: url("https://s3.india.com/wp-content/uploads/2024/09/places-in-amravati.jpg?impolicy=Medium_Widthonly&w=800&h=541");
-    background-size: cover;
-    background-repeat: no-repeat;  
-  }*/
-
+  
   #footer{
     width: 100%;
     margin-top: 150px;
@@ -299,11 +242,12 @@
   }
   #footer h1{
     font-weight: 600;
-    padding-top: 30px;
+    padding-top: 20px;
     text-shadow: 0px 0px 1px black;
   }
   #footer h1 span{
-    color: #ffa500;
+    color: orange;
+    margin-right: 5px;
   }
   .social-links a i{
     padding: 10px;
@@ -319,4 +263,13 @@
   .social-links i:hover{
     background: #ffa500;
   }
+  .review-card img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.card-title{
+  color: orange;
+}
   
